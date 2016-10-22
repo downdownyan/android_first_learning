@@ -1,26 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#00ff77"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
     <Button
         android:id="@+id/main_button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/main_button_first"/>
+
     <Button
-        android:id="@+id/main_button_second"
+        android:layout_below="@+id/main_button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="222"/>
+        android:text="button_second"
+        android:id="@+id/button_second" />
+
+    <Button
+        android:layout_below="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third Button"
+        android:id="@+id/button_third" />
+
+    <TextView
+        android:layout_below="@+id/button_third"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView" />
+
+       <TextView
+           android:id="@+id/emputy_textview"
+           android:layout_alignTop="@+id/textView"
+           android:layout_toRightOf="@+id/textView"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:background="@color/red"/>
 
     <EditText
+        android:layout_below="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="phone"
@@ -29,6 +52,7 @@
         android:layout_gravity="center_horizontal" />
 
     <SeekBar
+        android:layout_below="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/seekBar"
@@ -38,12 +62,14 @@
         android:indeterminate="false" />
 
     <RatingBar
+        android:layout_below="@+id/seekBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/ratingBar"
         android:layout_gravity="center_horizontal" />
 
     <ProgressBar
+        android:layout_below="@+id/ratingBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:max="100"
         android:progress="12"
@@ -52,4 +78,4 @@
         android:id="@+id/progressBar"
         android:layout_gravity="center_horizontal" />
 
-</LinearLayout>
+</RelativeLayout>
