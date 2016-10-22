@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">161010Geekbandproject_first</string>
+    <string name="first_splash">wolail</string>
+    <string name="splash_enter_button_name">点击进入</string>
+    <string name="Splash_main_text">欢迎哇哦！</string>
+    <string name="main_button_first">返回</string>
+</resources>
