@@ -14,19 +14,19 @@ import android.widget.TextView;
  */
 public class SplashActivity extends Activity {
     Handler mhandler = new Handler();
-    private Button mEnterButton;
-    private View.OnClickListener mOnClicklistener = new View.OnClickListener() {
-
-        @Override
-        public void onClick(View v) {
-            switch (v.getId()){
-                case R.id.splash_enter_button:
-                    Intent intent = new Intent(SplashActivity.this,MainActivity.class);
-                    startActivity(intent);
-                    break;
-            }
-        }
-    };
+//    private Button mEnterButton;
+//    private View.OnClickListener mOnClicklistener = new View.OnClickListener() {
+//
+//        @Override
+//        public void onClick(View v) {
+//            switch (v.getId()){
+//                case R.id.splash_enter_button:
+//                    Intent intent = new Intent(SplashActivity.this,MainActivity.class);
+//                    startActivity(intent);
+//                    break;
+//            }
+//        }
+//    };
     private static int requestCode = 9999;
     private static final String TAG= SplashActivity.class.getSimpleName();
     public static String TITLE;
@@ -38,8 +38,8 @@ public class SplashActivity extends Activity {
         setContentView(R.layout.activity_splash);
         mtextView = (TextView) findViewById(R.id.splash_text_view);
         TITLE = mtextView.getText().toString();
-        mEnterButton = (Button) findViewById(R.id.splash_enter_button);
-        mEnterButton.setOnClickListener(mOnClicklistener);
+//        mEnterButton = (Button) findViewById(R.id.splash_enter_button);
+//        mEnterButton.setOnClickListener(mOnClicklistener);
         final UserInfo userInfo = new UserInfo(12,"小明");
         mhandler.postDelayed(new Runnable() {
             @Override
@@ -61,6 +61,7 @@ public class SplashActivity extends Activity {
             if(data!=null){
                 String title = data.getStringExtra(TITLE);
                 mtextView.setText(title);
+
             }
         }
     }

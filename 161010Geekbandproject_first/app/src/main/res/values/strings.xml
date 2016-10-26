@@ -4,4 +4,7 @@
     <string name="splash_enter_button_name">点击进入</string>
     <string name="Splash_main_text">欢迎哇哦！</string>
     <string name="main_button_first">返回</string>
+    <string name="phone_book">电话本</string>
+    <string name="phone_book_age">年龄</string>
+    <string name="phone_book_name">姓名</string>
 </resources>

@@ -9,22 +9,36 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     public static int resultCode;
+    private  Button mphoneButton;
+    private View.OnClickListener mViewOnClickListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button mMainButton = (Button) findViewById(R.id.main_button_first);
-        mMainButton.setOnClickListener(new View.OnClickListener() {
+        mViewOnClickListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.putExtra(SplashActivity.TITLE,"我是主页君？");
-                resultCode = 2333;
-                setResult(resultCode,intent);
-                finish();
+                switch (v.getId()) {
+
+                    case R.id.main_button_first:
+//                        Intent intent_splash = new Intent(MainActivity.this,SplashActivity.class);
+                    Intent intent = new Intent();
+                    intent.putExtra(SplashActivity.TITLE, "我是主页君？");
+                    resultCode = 2333;
+                    setResult(resultCode, intent);
+                    finish();
+//                        startActivity(intent_splash);
+                        break;
+                    case R.id.button_phone_circle:
+                        Intent intent1 = new Intent(MainActivity.this,ListViewActivity.class);
+                        startActivity(intent1);
+
+                }
             }
-        });
+        };
+        mMainButton.setOnClickListener(mViewOnClickListener);
         Intent intent = getIntent();
         if(intent!=null){
             String title = intent.getStringExtra("title");
@@ -33,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+        mphoneButton = (Button) findViewById(R.id.button_phone_circle);
+    mphoneButton.setOnClickListener(mViewOnClickListener);
 
     }
 }

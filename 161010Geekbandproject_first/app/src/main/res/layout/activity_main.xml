@@ -4,8 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#00ff77"
-    >
 
+    >
+<include layout="@layout/activity_splash"/>
     <Button
         android:id="@+id/main_button_first"
         android:layout_width="wrap_content"
@@ -16,18 +17,13 @@
         android:layout_below="@+id/main_button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="button_second"
-        android:id="@+id/button_second" />
+        android:text="@string/phone_book"
+        android:id="@+id/button_phone_circle" />
 
-    <Button
-        android:layout_below="@+id/button_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Third Button"
-        android:id="@+id/button_third" />
 
     <TextView
-        android:layout_below="@+id/button_third"
+        android:background="@color/yellow"
+        android:layout_below="@+id/button_phone_circle"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -41,6 +37,13 @@
            android:layout_width="100dp"
            android:layout_height="100dp"
            android:background="@color/red"/>
+    <TextView
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/emputy_textview"
+        android:background="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
 
     <EditText
         android:layout_below="@+id/textView"
@@ -62,6 +65,8 @@
         android:indeterminate="false" />
 
     <RatingBar
+        android:max="5"
+        android:progress="3"
         android:layout_below="@+id/seekBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

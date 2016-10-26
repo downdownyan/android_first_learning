@@ -2,123 +2,157 @@
 <items version="2" >
 
     <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
+        optimize="true"
         revision="24.0.2"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_ded4d0c28e4cec09eef77f995afe58cc42b1d058\classes.dex" />
+        sha1="cd53bc8dfda09022d36bd6c64d9b86d1ee8be283">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f80d7ce8fd8aa0641ff4a696eac4214ddc8d94d8\classes.dex" />
     </item>
     <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_b3e16241e919277967f61099eee61913ad723caf\classes.dex" />
-    </item>
-    <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_63107f565629fb9877735d134fa913d2e29e3a23\classes.dex" />
-    </item>
-    <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="f142b9aea45825640efbc99ac908a59eb759abbc">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f0963ea92d678af80660ce1b5aa8626ce015e21f\classes.dex" />
-    </item>
-    <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3903608ab8162336cd574d716877b4a6309315d9\classes.dex" />
-    </item>
-    <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_1f74d9d51dd265c43f82a7caa70cb94b453bde7b\classes.dex" />
-    </item>
-    <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_488a9afe82b675f505b8d5130778c7a5d6a91b23\classes.dex" />
-    </item>
-    <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_9df498105798e094f1a1c5b5f5a2382b15ce7050\classes.dex" />
-    </item>
-    <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_44417deb74f2016a6f0089f7dabc5b286c0891a9\classes.dex" />
-    </item>
-    <item
+        is-multidex="true"
         jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
+        optimize="true"
         revision="24.0.2"
         sha1="045be695d968dd707691cc55d23746dbf8cf569a">
         <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e2df10393c9a5c54b30808301a7958133f30c0b9\classes.dex" />
     </item>
     <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_cec29e9e6facf444411ba9b6687a75026107e786\classes.dex" />
-    </item>
-    <item
+        is-multidex="true"
         jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
+        optimize="true"
         revision="24.0.2"
         sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
         <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_818a2ebef49b27f85e7bfd6c7c5552c84e8e74ed\classes.dex" />
     </item>
     <item
-        jar="C:\Users\downdown\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="24.0.2"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_cf47387f8b63e14d7b55aa8f9c527f25319ae528\classes.dex" />
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_1f74d9d51dd265c43f82a7caa70cb94b453bde7b\classes.dex" />
     </item>
     <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
+        optimize="true"
         revision="24.0.2"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_ee6d57d8e5b2fcbb6fe75703be1c19a55d5a5c7a\classes.dex" />
+        sha1="4a7190742af6133b8f2126a24b89a3dcc2815cf8">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f0963ea92d678af80660ce1b5aa8626ce015e21f\classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3903608ab8162336cd574d716877b4a6309315d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="24.0.2"
         sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
         <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_8553c5c40e4f132396afbd8235bad2bf8c258b36\classes.dex" />
     </item>
     <item
-        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="24.0.2"
-        sha1="d550e0ed30347e974f71a5989f1aab09f79d6adb">
-        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f80d7ce8fd8aa0641ff4a696eac4214ddc8d94d8\classes.dex" />
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_ded4d0c28e4cec09eef77f995afe58cc42b1d058\classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_63107f565629fb9877735d134fa913d2e29e3a23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_ee6d57d8e5b2fcbb6fe75703be1c19a55d5a5c7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_9df498105798e094f1a1c5b5f5a2382b15ce7050\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_b3e16241e919277967f61099eee61913ad723caf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\downdown\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_cf47387f8b63e14d7b55aa8f9c527f25319ae528\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="24.0.2"
         sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
         <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_e0af1d542732ba802a138417d96846a4da923091\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_cec29e9e6facf444411ba9b6687a75026107e786\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_488a9afe82b675f505b8d5130778c7a5d6a91b23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="D:\Users\laoyan\AndroidStudioProjects\161010Geekbandproject_first\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_44417deb74f2016a6f0089f7dabc5b286c0891a9\classes.dex" />
     </item>
 
 </items>
